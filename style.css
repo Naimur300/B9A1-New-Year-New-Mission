@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
 }
 .content-container{
     width: 100%;
@@ -42,3 +43,83 @@ font-weight: 400;
 margin-top: 177px;
 margin-bottom: 20px;
 }
+
+/* discount part css start */
+
+.discount-title{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 48px;
+
+}
+.discount-description{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.discount-category{
+margin-top: 16px;
+margin-bottom: 48px;
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+/* midnight party css start  */
+
+.banner-2-container{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url("./image/Vectorrr.png") ;;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1320px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+}
+.midnight-title{
+color: white;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+margin-bottom: 24px;
+margin-left: 126px;
+
+}
+.midnight-description{
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-right: 40px;
+margin-bottom: 48px;
+margin-left: 126px;
+}
+.midnight-btn{
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+margin-left: 158px;
+}
+
+
+
